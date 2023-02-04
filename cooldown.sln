@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cooldown", "cooldown\cooldown.csproj", "{DA975AB3-1438-4FDE-BADF-DF3D26BC7C8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA975AB3-1438-4FDE-BADF-DF3D26BC7C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA975AB3-1438-4FDE-BADF-DF3D26BC7C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA975AB3-1438-4FDE-BADF-DF3D26BC7C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA975AB3-1438-4FDE-BADF-DF3D26BC7C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65EC158A-E464-4F8A-9E76-A74BDD2747C4}
+	EndGlobalSection
+EndGlobal
