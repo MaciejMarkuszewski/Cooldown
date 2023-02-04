@@ -1,4 +1,4 @@
-﻿namespace cooldown
+﻿namespace Cooldown
 {
     partial class Form1
     {

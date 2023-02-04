@@ -5,7 +5,7 @@ using System.Threading;
 using System.Windows.Forms;
 using Utilities;
 
-namespace cooldown
+namespace Cooldown
 {
     public partial class Form1 : Form
     {
@@ -80,10 +80,10 @@ namespace cooldown
 
         private void uptime(object sender, EventArgs e)
         {
-            DecremenTimer();
+            Thread.Sleep(50);
+            DecrementTimer();
             DisplayTimer();
 
-            Thread.Sleep(50);
             timestamp = DateTime.Now;
         }
 
@@ -96,7 +96,7 @@ namespace cooldown
             }
         }
 
-        private void DecremenTimer()
+        private void DecrementTimer()
         {
             Timer -= (int)(DateTime.Now - timestamp).TotalMilliseconds;
         }
